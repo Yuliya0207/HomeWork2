@@ -4,9 +4,9 @@ def a (y, x):
     return [randrange(0, x) for _ in range(y)]
 
 def compareLists ():
-    lis3 = a(15, 15)
-    lis4 = a(15, 15)
-    listWithDifferentItems = set(lis3).intersection(lis4)
+    lis1 = a(10, 15)
+    lis2 = a(20, 15)
+    listWithDifferentItems = set(lis1).intersection(lis2)
     print(listWithDifferentItems)
 
 compareLists ()
