@@ -11,4 +11,5 @@ b = {
     'kagarlyk':4573,
     'mironovka':4574
 }
-print(b)
+for key in b:
+    print(b, [key])
